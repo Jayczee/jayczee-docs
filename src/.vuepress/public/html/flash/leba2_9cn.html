@@ -1,0 +1,32 @@
+<html>
+    <body>
+    <div id="container" style="width: 800px;height: 600px;display: flex;justify-content: center"></div>
+        <script>
+            window.RufflePlayer = window.RufflePlayer || {};
+            window.addEventListener("load", (event) => {
+                const ruffle = window.RufflePlayer.newest();
+                const player = ruffle.createPlayer();
+                player.config = {
+                    quality:"best",
+                    preferredRenderer: "canvas"
+                };
+                player.metadata = {
+                    width:800,
+                    height:600
+                };
+                const container = document.getElementById("container");
+                container.appendChild(player);
+                player.load({
+                    url: "https://upload.buybuylabel.com/bbl/xnykwpazjkfbbwvs/leba2.9cn.swf"
+                });
+            });
+        </script>
+        <script src="/js/ruffle/ruffle.js"></script>
+    </body>
+    <style>
+        ruffle-player{
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</html>
