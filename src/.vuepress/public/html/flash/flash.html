@@ -2,6 +2,7 @@
     <body>
     <div id="container" style="width: 800px;height: 600px;display: flex;justify-content: center"></div>
         <script>
+            const urlParam = new URLSearchParams(window.location.search).get('url');
             window.RufflePlayer = window.RufflePlayer || {};
             window.addEventListener("load", (event) => {
                 const ruffle = window.RufflePlayer.newest();
@@ -17,7 +18,7 @@
                 const container = document.getElementById("container");
                 container.appendChild(player);
                 player.load({
-                    url: "https://upload.buybuylabel.com/bbl/xnykwpazjkfbbwvs/leba2.9cn.swf"
+                    url: urlParam
                 });
             });
         </script>
