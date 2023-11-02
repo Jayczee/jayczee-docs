@@ -7,6 +7,14 @@ export const enSidebar = sidebar({
           icon: "laptop-code",
           prefix: "flash/",
           children: "structure",
+          collapsible: true
+      },
+      {
+          text: "Spring",
+          icon: "/assets/icon/spring.png",
+          prefix: "spring/",
+          children: "structure",
+          collapsible: true
       },
   ],
 });

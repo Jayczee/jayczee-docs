@@ -7,6 +7,14 @@ export const zhSidebar = sidebar({
       icon: "laptop-code",
       prefix: "flash/",
       children: "structure",
+      collapsible: true
+    },
+    {
+      text: "Spring系",
+      icon: "/assets/icon/spring.png",
+      prefix: "spring/",
+      children: "structure",
+      collapsible: true
     },
     // {
     //   text: "文档",
