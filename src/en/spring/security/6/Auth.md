@@ -3,6 +3,10 @@ index: true
 order: 2
 title: Quick Start - Configure Spring Security 1
 icon: /assets/icon/config.png
+isOriginal: true
+tags:
+  - Spring
+  - Spring Security
 ---
 
 # Configure Spring Security

@@ -3,6 +3,10 @@ index: true
 order: 1
 title: Quick Start - Initialize Spring Security Project
 icon: /assets/icon/init.png
+isOriginal: true
+tags:
+  - Spring
+  - Spring Security
 ---
 
 # Initialize Spring Security Project
