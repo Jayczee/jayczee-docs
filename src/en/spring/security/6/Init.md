@@ -1,7 +1,7 @@
 ---
 index: true
 order: 1
-title: Initialize Spring Security Project
+title: Quick Start - Initialize Spring Security Project
 icon: /assets/icon/init.png
 ---
 
@@ -70,7 +70,7 @@ server:
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://192.168.10.229:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=false
+        url: jdbc:mysql://192.168.10.229:3306/security_demo?useUnicode=true&characterEncoding=utf-8&useSSL=false
         username: root
         password: jhkd5960795
         hikari:

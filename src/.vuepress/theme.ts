@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  logo: "/assets/icon/notes.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
