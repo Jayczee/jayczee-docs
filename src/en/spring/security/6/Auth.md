@@ -277,7 +277,7 @@ public class SysUser implements UserDetails {
 ``` 
 We implement the `UserDetails` interface, mainly to implement the methods overridden above. In addition, we also need to add the ***authorities*** property, which is used to store the user's permission information. 
 
-### 3.2 添加角色和权限相关的enum类
+### 3.2 Add enums of role and perms
 
 Create `Role` and `Perm` classes under the `top.jayczee.securitydemo.enums` package to store the enumeration of roles and permissions. 
 
@@ -367,7 +367,7 @@ public class SysUserGrantServiceImpl extends ServiceImpl<SysUserGrantMapper, Sys
 }
 ```
 
-### 3.4 添加ApplicationConfig类 
+### 3.4 Add ApplicationConfig Class
 Create an `ApplicationConfig` class in the `top.jayczee.securitydemo.config`package to configure Spring Security-related beans.
 
 The ApplicationConfig class is used solely for the purpose of conveniently centralizing the configuration of beans related to defining Spring Security configurations. The name `ApplicationConfig` is chosen for ease of understanding, but in reality, it can be named anything.
