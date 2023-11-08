@@ -4,7 +4,7 @@ order: 1
 title: 快速开始 - 创建项目
 icon: /assets/icon/init.png
 isOriginal: true
-tags:
+tag:
   - Spring
   - Spring Security
 ---

@@ -4,7 +4,7 @@ order: 2
 title: 快速开始 - Spring Security配置(1)
 icon: /assets/icon/config.png
 isOriginal: true
-tags:
+tag:
   - Spring
   - Spring Security
 ---

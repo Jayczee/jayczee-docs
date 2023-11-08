@@ -1,5 +1,5 @@
 ---
 index: false
-title: 6
+title: Version 6
 icon: /assets/icon/ver.png
 ---
